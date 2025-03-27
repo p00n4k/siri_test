@@ -46,7 +46,15 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>AppIntentsEnabled</key>
-<true/>
+	<true/>
+    
+	<!-- 📍 Required for location access -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to check air quality.</string>
+
+	<!-- ✅ If background location is needed, use this -->
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to check air quality even in the background.</string>
 
 </dict>
 </plist>
